@@ -5,15 +5,20 @@ class secondPage{
         this.register=createButton('Register');
         this.input=createInput("Enter ur email address");
         this.password=createInput("Fill in a password for your account");
-    
     }
     display(){
-    this.title.position(200,150);
-    this.register.position(300,150);
-    this.input.position(200,180);
-    this.password.position(200,200);
+    this.title.position(670,25);
+    this.register.position(1000,240);
+    this.input.position(1000,160);
+    this.password.position(1000,200);
     this.register.mousePressed(()=>{
+    this.input.hide();
+    this.password.hide();
+    this.register.hide();
+    this.title.hide();
     p3=new thirdPage();
+    p3.display();
+    
     })
     }
 }
