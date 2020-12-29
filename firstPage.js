@@ -3,7 +3,7 @@ class firstpage {
     this.title = createElement("h1");
     this.title.html("Justice Warriors");
     this.button = createButton("Create account");
-    this.loggIn = createButton("Log in");
+    this.logIn = createButton("Log in");
   }
   display() {
     this.button.position(1100, 60);
