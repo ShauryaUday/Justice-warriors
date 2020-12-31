@@ -5,6 +5,7 @@ class firstpage {
     this.button = createButton("Create account");
     this.logIn = createButton("Log in");
   }
+  
   display() {
     this.button.position(1100, 60);
     this.title.position(550, 315);
@@ -23,4 +24,5 @@ class firstpage {
       p6.display();
     });
   }
+  
 }

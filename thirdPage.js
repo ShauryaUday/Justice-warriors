@@ -2,6 +2,7 @@ class thirdPage {
   constructor() {
     this.logout = createButton("LOG OUT");
     this.report = createButton("Report");
+    //this.jam    = createTitle("Report button if u want to report injustice that has happend somewhere");
   }
   display() {
     this.logout.position(320, 490);

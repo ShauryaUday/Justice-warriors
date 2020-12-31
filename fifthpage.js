@@ -7,6 +7,7 @@ class fifthpage{
         
     }
     display(){
+        
         this.title.position(200,150);
         this.input.position(200,300);
         this.submit.position(220,388);
